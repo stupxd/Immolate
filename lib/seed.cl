@@ -76,6 +76,7 @@ text s_to_string(seed* s) {
     for (int i = 0; i < 8; i++) {
         str.str[i]=s_char_at(s, i);
     }
+    str.str[8] = '\0';
     str.len = 8;
     return str;
 }

@@ -84,7 +84,7 @@ long filter(instance* inst) {
         }
     }
 
-    if (bestScore < 5) { // Cutoff chains that are less than 5.
+    if (bestScore < 7) { // Cutoff chains that are less than 7.
         return 0;
     }
 
